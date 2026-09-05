@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Visibility Kit | Carus MKT</title>
+<meta name="description" content="Descubra por que sua empresa não aparece bem no Google e aprenda a corrigir sozinho. Diagnóstico guiado, prioridades e materiais práticos por R$147/ano.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 116 71'%3E%3Crect width='116' height='71' rx='14' fill='%23275441'/%3E%3Cpath d='M96.1113 23.1973C98.2113 23.1973 100.042 23.4967 101.602 24.0967C103.162 24.6967 104.452 25.5372 105.472 26.6172C106.612 27.8171 107.392 29.3771 107.812 31.2969C108.232 33.2169 108.441 35.5872 108.441 38.4072V62.4375C108.441 64.9573 108.952 66.6674 109.972 67.5674C111.052 68.4672 112.822 68.917 115.281 68.917V70.8066C114.261 70.7466 112.701 70.687 110.602 70.627C108.502 70.507 106.461 70.4473 104.481 70.4473C102.502 70.4473 100.552 70.507 98.6318 70.627C96.7719 70.687 95.3614 70.7466 94.4014 70.8066V68.917C96.5612 68.917 98.0912 68.4672 98.9912 67.5674C99.8912 66.6674 100.342 64.9573 100.342 62.4375V36.4268C100.342 34.5669 100.221 32.8568 99.9814 31.2969C99.7414 29.737 99.1416 28.4766 98.1816 27.5166C97.2216 26.5567 95.6609 26.0771 93.501 26.0771C91.1611 26.0772 89.0611 26.7974 87.2012 28.2373C85.4014 29.6772 83.9618 31.6272 82.8818 34.0869C81.8618 36.5469 81.3516 39.3072 81.3516 42.3672V62.4375C81.3516 64.9573 81.8619 66.6674 82.8818 67.5674C83.9619 68.4671 85.7317 68.917 88.1914 68.917V70.8066C87.1715 70.7466 85.6115 70.687 83.5117 70.627C81.4118 70.507 79.3715 70.4473 77.3916 70.4473C75.4116 70.4473 73.461 70.507 71.541 70.627C69.6813 70.6869 68.2715 70.7467 67.3115 70.8066V68.917C69.4713 68.917 71.0014 68.4673 71.9014 67.5674C72.8013 66.6674 73.2509 64.9573 73.251 62.4375V36.4268C73.251 34.5669 73.1316 32.8568 72.8916 31.2969C72.6516 29.7369 72.0518 28.4766 71.0918 27.5166C70.1318 26.5566 68.5711 26.0771 66.4111 26.0771C64.0712 26.0772 61.9713 26.7974 60.1113 28.2373C58.3114 29.6773 56.871 31.6569 55.791 34.1768C54.771 36.6367 54.2617 39.397 54.2617 42.457V62.4375C54.2618 64.9573 54.7114 66.6674 55.6113 67.5674C56.5113 68.4673 58.0414 68.917 60.2012 68.917V70.8066C59.2412 70.7467 57.8015 70.6869 55.8818 70.627C54.0218 70.507 52.1011 70.4473 50.1211 70.4473C48.1412 70.4473 46.1009 70.507 44.001 70.627C41.9012 70.687 40.3412 70.7466 39.3213 70.8066V68.917C41.781 68.917 43.521 68.4672 44.541 67.5674C45.621 66.6674 46.1611 64.9573 46.1611 62.4375V46.7207C47.7883 45.3168 49.2151 43.7413 50.4395 41.9922C52.0344 39.6811 53.2064 37.1581 53.9551 34.4238H46.1611V34.2666C46.1611 31.567 45.6815 29.5871 44.7217 28.3271C43.7617 27.0071 41.9613 26.3467 39.3213 26.3467V24.457C41.2413 24.637 43.1014 24.7275 44.9014 24.7275C46.6414 24.7275 48.2916 24.637 49.8516 24.457C51.4715 24.217 52.9418 23.8868 54.2617 23.4668V34.0869C55.8217 30.187 57.9514 27.3968 60.6514 25.7168C63.3513 24.0368 66.1415 23.1973 69.0215 23.1973C71.1214 23.1973 72.9518 23.4967 74.5117 24.0967C76.0716 24.6967 77.3619 25.5372 78.3818 26.6172C79.5217 27.8171 80.3017 29.3771 80.7217 31.2969C80.8935 32.0821 81.0274 32.9431 81.1289 33.8789C82.7442 29.8036 84.9178 27.0228 87.6514 25.5371C90.4114 23.9771 93.2313 23.1973 96.1113 23.1973ZM27.6855 0C31.0058 0 34.0821 0.472055 36.9141 1.41602C39.7785 2.35999 42.334 3.67848 44.5801 5.37109C46.8586 7.03117 48.7956 9.01707 50.3906 11.3281C51.9856 13.6392 53.1738 16.1623 53.9551 18.8965H41.7969C40.4948 16.2274 38.5904 14.1438 36.084 12.6465C33.6101 11.1166 30.8267 10.3516 27.7344 10.3516C25.6185 10.3516 23.6002 10.7259 21.6797 11.4746C19.7917 12.2233 18.1152 13.3139 16.6504 14.7461C15.2182 16.1458 14.0625 17.855 13.1836 19.873C12.3373 21.8912 11.9141 24.1538 11.9141 26.6602C11.9141 29.1991 12.3374 31.478 13.1836 33.4961C14.0624 35.5142 15.2345 37.2396 16.6992 38.6719C18.164 40.0716 19.8406 41.1458 21.7285 41.8945C23.6491 42.6432 25.6511 43.0176 27.7344 43.0176C30.8268 43.0176 33.61 42.2689 36.084 40.7715C38.5579 39.2415 40.4623 37.1256 41.7969 34.4238H46.1611V46.7207C45.6685 47.1457 45.1584 47.5559 44.6289 47.9492C42.3828 49.6419 39.8275 50.9603 36.9629 51.9043C34.0983 52.8483 31.0059 53.3203 27.6855 53.3203C23.6817 53.3203 19.9869 52.6204 16.6016 51.2207C13.2162 49.821 10.2864 47.9166 7.8125 45.5078C5.37122 43.099 3.45047 40.2831 2.05078 37.0605C0.683707 33.838 0 30.3872 0 26.709C5.2931e-05 23.0308 0.683647 19.58 2.05078 16.3574C3.41796 13.1024 5.32235 10.2701 7.76367 7.86133C10.2376 5.42 13.1674 3.49932 16.5527 2.09961C19.9381 0.699899 23.6492 1.23465e-05 27.6855 0Z' fill='%23F7F5EE' transform='translate(0,9) scale(0.75)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pine:#275441;
+  --pine-deep:#1d4233;
+  --pine-soft:#336b54;
+  --sage:#8A9F95;
+  --sage-tint:#e3ebe4;
+  --sage-tint-2:#d3e0d6;
+  --cream:#f7f5ee;
+  --alabaster:#eceae9;
+  --olive:#908E8E;
+  --graphite:#343232;
+  --white:#ffffff;
+  --radius-lg:30px;
+  --radius-md:20px;
+  --radius-sm:13px;
+  --shadow-soft:0 24px 60px -30px rgba(29,66,51,0.4);
+  --shadow-card:0 14px 34px -20px rgba(29,66,51,0.28);
+  --maxw:1200px;
+  --stripe-url:'https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03';
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+body{
+  font-family:'Manrope',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  background:var(--cream);
+  color:var(--graphite);
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  max-width:100%;
+  position:relative;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+h1,h2,h3,h4{
+  font-family:'Playfair Display',Georgia,'Times New Roman',serif;
+  font-weight:600;
+  color:var(--pine-deep);
+  line-height:1.14;
+  letter-spacing:-0.01em;
+}
+em,.italic{font-style:italic;font-weight:500;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+section{padding:clamp(60px,9vw,128px) 0;}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:0.72rem;font-weight:800;letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--pine-soft);
+}
+.eyebrow::before{content:'';width:22px;height:2px;background:var(--sage);display:inline-block;border-radius:2px;}
+.section-head{max-width:700px;margin:0 auto 50px;text-align:center;}
+.section-head.left{margin:0 0 46px;text-align:left;}
+.section-head h2{font-size:clamp(1.75rem,3.6vw,2.6rem);margin-top:12px;}
+.section-head p{color:var(--olive);font-size:1.06rem;margin-top:16px;}
+
+/* ---------- pill / highlight / underline accents (static, no motion) ---------- */
+.pill{
+  display:inline-block;background:var(--pine);color:var(--white);
+  padding:3px 18px 6px;border-radius:100px;
+}
+.underline-accent{position:relative;white-space:nowrap;}
+.underline-accent::after{
+  content:'';position:absolute;left:0;bottom:-2px;height:9px;width:100%;
+  background:var(--sage-tint-2);border-radius:6px;z-index:-1;
+}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-family:'Manrope',sans-serif;font-weight:800;font-size:1rem;
+  padding:17px 30px;border-radius:100px;border:none;cursor:pointer;
+  transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+  white-space:nowrap;
+}
+.btn-primary{background:var(--pine);color:var(--white);box-shadow:0 16px 32px -14px rgba(29,66,51,0.55);}
+.btn-primary:hover{background:var(--pine-deep);transform:translateY(-2px);box-shadow:0 20px 38px -14px rgba(29,66,51,0.6);}
+.btn-light{background:var(--white);color:var(--pine-deep);box-shadow:0 12px 26px -14px rgba(0,0,0,0.28);}
+.btn-light:hover{transform:translateY(-2px);box-shadow:0 16px 30px -14px rgba(0,0,0,0.32);}
+.btn-outline{background:transparent;color:var(--pine-deep);border:1.5px solid rgba(39,84,65,0.32);}
+.btn-outline:hover{border-color:var(--pine);background:rgba(39,84,65,0.06);}
+.btn-outline.on-dark{color:var(--white);border-color:rgba(255,255,255,0.35);}
+.btn-outline.on-dark:hover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.55);}
+.btn-block{width:100%;}
+.btn-sm{padding:12px 22px;font-size:0.86rem;}
+
+.icon{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;}
+
+/* ---------- header ---------- */
+header{
+  position:sticky;top:0;z-index:60;
+  background:rgba(247,245,238,0.88);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(39,84,65,0.09);
+}
+.header-inner{max-width:var(--maxw);margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo{display:flex;align-items:center;}
+.logo svg{height:34px;width:auto;display:block;color:var(--graphite);}
+.header-right{display:flex;align-items:center;gap:14px;}
+.header-wa{display:none;}
+@media(min-width:560px){.header-wa{display:inline-flex;}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;padding-top:clamp(48px,7vw,84px);padding-bottom:clamp(70px,9vw,104px);}
+.hero-bg-blob{position:absolute;border-radius:50%;filter:blur(0px);z-index:0;}
+.hero-bg-blob.a{width:640px;height:640px;background:radial-gradient(circle,rgba(138,159,149,0.35),rgba(138,159,149,0) 70%);top:-260px;right:-200px;}
+.hero-bg-blob.b{width:420px;height:420px;background:radial-gradient(circle,rgba(39,84,65,0.14),rgba(39,84,65,0) 70%);bottom:-200px;left:-140px;}
+.hero-route{position:absolute;top:60px;left:0;width:100%;height:520px;z-index:0;opacity:0.5;pointer-events:none;}
+.hero-inner{max-width:var(--maxw);margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1.06fr 0.94fr;gap:60px;align-items:center;position:relative;z-index:2;}
+.hero h1{font-size:clamp(2.15rem,4.3vw,3.3rem);margin-top:18px;}
+.hero p.lead{color:var(--graphite);opacity:0.78;font-size:clamp(1.02rem,1.6vw,1.16rem);margin-top:20px;max-width:540px;font-weight:500;}
+
+.search-mock{
+  display:flex;align-items:center;gap:10px;background:var(--white);
+  border-radius:100px;padding:9px 9px 9px 24px;max-width:430px;margin-top:28px;
+  box-shadow:var(--shadow-card);border:1px solid rgba(39,84,65,0.08);
+}
+.search-mock span{color:var(--olive);font-weight:600;font-size:0.94rem;flex:1;}
+.search-go{
+  width:44px;height:44px;border-radius:50%;background:var(--pine);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;color:var(--white);
+}
+.search-go .icon{width:19px;height:19px;stroke-width:2.3;}
+.search-caption{font-size:0.78rem;color:var(--olive);margin-top:10px;margin-left:24px;font-style:italic;}
+
+.hero-cta{margin-top:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;}
+.hero-trust{margin-top:24px;display:flex;flex-wrap:wrap;gap:18px;font-size:0.84rem;color:var(--graphite);opacity:0.75;font-weight:600;}
+.hero-trust span{display:inline-flex;align-items:center;gap:7px;}
+.hero-trust .icon{width:16px;height:16px;color:var(--pine);}
+
+/* hero visual: the illustration and both cards are ONE group: .hero-media is the
+   positioning context, so the cards stay pinned to the image at every window size. */
+.hero-visual{display:flex;justify-content:center;align-items:center;}
+.hero-media{position:relative;width:100%;max-width:480px;margin-inline:auto;}
+.hero-photo-frame{
+  width:100%;aspect-ratio:1300/1041;border-radius:var(--radius-lg);overflow:hidden;
+  box-shadow:var(--shadow-soft);position:relative;z-index:1;background:var(--sage-tint);
+}
+.hero-photo-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.float-card{
+  position:absolute;z-index:2;background:var(--white);border-radius:var(--radius-sm);
+  padding:13px 16px;box-shadow:var(--shadow-card);display:flex;align-items:center;gap:10px;
+  max-width:62%;
+}
+.float-card.c1{top:-16px;left:-16px;}
+.float-card.c2{bottom:-16px;right:-16px;}
+.float-card .dot{width:10px;height:10px;border-radius:50%;background:var(--pine);flex-shrink:0;}
+.float-card strong{display:block;font-size:0.86rem;color:var(--pine-deep);font-weight:800;}
+.float-card span{font-size:0.7rem;color:var(--olive);}
+
+/* ---------- scroll reveal ----------
+   Progressive enhancement: content is fully visible by default and only becomes
+   animatable once JS confirms it can control it, so it can never get stuck hidden.
+   Performance: animates ONLY opacity + transform (compositor-friendly, no layout or
+   paint), uses IntersectionObserver instead of a scroll listener, and unobserves each
+   element after it fires. Stagger delays are pure CSS, so they cost nothing at runtime. */
+.reveal,.stagger>*{opacity:1;transform:none;}
+.js-anim .reveal{
+  opacity:0;transform:translate3d(0,20px,0);
+  transition:opacity .6s cubic-bezier(.22,.61,.36,1), transform .6s cubic-bezier(.22,.61,.36,1);
+}
+.js-anim .reveal.in{opacity:1;transform:translate3d(0,0,0);}
+
+.js-anim .stagger>*{
+  opacity:0;transform:translate3d(0,16px,0);
+  transition:opacity .55s cubic-bezier(.22,.61,.36,1), transform .55s cubic-bezier(.22,.61,.36,1);
+}
+.js-anim .stagger.in>*{opacity:1;transform:translate3d(0,0,0);}
+.js-anim .stagger.in>*:nth-child(1){transition-delay:.02s}
+.js-anim .stagger.in>*:nth-child(2){transition-delay:.07s}
+.js-anim .stagger.in>*:nth-child(3){transition-delay:.12s}
+.js-anim .stagger.in>*:nth-child(4){transition-delay:.17s}
+.js-anim .stagger.in>*:nth-child(5){transition-delay:.22s}
+.js-anim .stagger.in>*:nth-child(6){transition-delay:.27s}
+.js-anim .stagger.in>*:nth-child(n+7){transition-delay:.32s}
+
+@media (prefers-reduced-motion: reduce){
+  .js-anim .reveal,.js-anim .stagger>*{opacity:1;transform:none;transition:none;}
+  html{scroll-behavior:auto;}
+}
+
+/* ---------- hover motion (the only "live" interaction besides scroll-reveal) ---------- */
+.area-chip,.who-card,.sign,.priority-item,.step,.compare-card,.faq-item summary{
+  transition:background-color .25s ease, box-shadow .25s ease, transform .25s ease, border-color .25s ease;
+}
+.area-chip:hover{background:var(--pine);color:var(--white);transform:translateY(-2px);}
+.area-chip:hover .icon{color:var(--white);}
+.who-card{transition:background-color .25s ease, transform .25s ease;}
+.who-card:hover{background:var(--pine);transform:translateY(-3px);}
+.who-card:hover p,.who-card:hover .icon{color:var(--white);}
+.sign:hover{background:var(--sage-tint);transform:translateX(4px);}
+.step{transition:transform .25s ease, box-shadow .25s ease;}
+.step:hover{transform:translateY(-4px);box-shadow:0 18px 36px -18px rgba(29,66,51,0.35);}
+.compare-card{transition:transform .25s ease, box-shadow .25s ease;}
+.compare-card:hover{transform:translateY(-4px);}
+.feature-visual{transition:box-shadow .25s ease;}
+.feature-visual img{transition:transform .5s ease;}
+.feature-visual:hover img{transform:scale(1.035);}
+summary{transition:color .2s ease;}
+summary:hover{color:var(--pine);}
+details:hover{border-color:rgba(39,84,65,0.28);}
+
+/* ---------- problem section ---------- */
+.problem{background:var(--white);}
+.problem-inner{display:grid;grid-template-columns:0.92fr 1.08fr;gap:56px;align-items:center;}
+.problem-visual img{border-radius:var(--radius-lg);box-shadow:var(--shadow-soft);width:100%;aspect-ratio:1300/1625;object-fit:cover;}
+.signs{margin-top:26px;display:grid;gap:12px;}
+.sign{display:flex;gap:13px;align-items:flex-start;background:var(--cream);border-radius:var(--radius-sm);padding:15px 17px;}
+.sign .icon{width:19px;height:19px;color:var(--pine);margin-top:2px;flex-shrink:0;}
+.sign p{font-size:0.96rem;font-weight:600;color:var(--graphite);}
+
+/* ---------- features ---------- */
+.features{background:var(--sage-tint);}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center;padding:46px 0;}
+.feature + .feature{border-top:1px solid rgba(39,84,65,0.13);}
+.feature-head{display:flex;align-items:center;gap:16px;}
+.feature-num{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:54px;height:54px;border-radius:16px;color:var(--white);flex-shrink:0;
+  font-family:'Playfair Display',serif;font-weight:700;font-size:1.3rem;
+  background:var(--pine); /* fallback: a badge is never left without its square */
+}
+/* Explicit modifiers, not :nth-child: the section heading is also a child of .wrap,
+   so positional rules drift and can leave a badge with no background at all. */
+.feature-num.n1{background:var(--pine);}
+.feature-num.n2{background:var(--pine-soft);}
+.feature-num.n3{background:var(--pine-deep);}
+.feature-num.n4{background:var(--pine);}
+.feature-num.n5{background:var(--pine-soft);}
+.feature h3{font-size:clamp(1.25rem,2.2vw,1.55rem);}
+.feature-copy{margin-top:14px;color:var(--graphite);opacity:0.82;font-size:1rem;}
+.feature-list{margin-top:18px;display:grid;gap:10px;}
+.feature-list li{display:flex;gap:10px;align-items:flex-start;font-size:0.95rem;color:var(--graphite);}
+.feature-list .icon{width:18px;height:18px;color:var(--pine);margin-top:2px;}
+.areas-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px;}
+.area-chip{background:var(--white);border-radius:12px;padding:13px 14px;display:flex;align-items:center;gap:10px;font-size:0.82rem;font-weight:700;color:var(--pine-deep);box-shadow:0 6px 16px -10px rgba(29,66,51,0.25);}
+.area-chip .icon{width:16px;height:16px;color:var(--pine);}
+.feature-visual{border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow-card);}
+.feature-visual img{width:100%;display:block;aspect-ratio:1300/1090;object-fit:cover;}
+.feature:nth-child(even) .feature-visual{order:-1;}
+.priority-list{display:grid;gap:10px;background:var(--white);border-radius:var(--radius-md);padding:22px;box-shadow:var(--shadow-card);}
+.priority-item{display:flex;gap:12px;align-items:center;}
+.priority-item .n{width:28px;height:28px;border-radius:8px;background:var(--pine);color:var(--white);display:flex;align-items:center;justify-content:center;font-size:0.78rem;font-weight:800;flex-shrink:0;}
+.priority-item span{font-size:0.88rem;font-weight:700;color:var(--graphite);}
+.checklist-mini{display:grid;gap:10px;background:var(--white);border-radius:var(--radius-md);padding:22px;box-shadow:var(--shadow-card);}
+.checklist-mini li{display:flex;align-items:center;gap:11px;font-size:0.9rem;font-weight:600;}
+.checklist-mini .box{width:19px;height:19px;border-radius:6px;border:2px solid var(--pine);flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.checklist-mini .box.done{background:var(--pine);}
+.checklist-mini .box.done svg{width:12px;height:12px;stroke:white;stroke-width:3;}
+
+.score-mini{display:grid;gap:16px;background:var(--white);border-radius:var(--radius-md);padding:24px;box-shadow:var(--shadow-card);}
+.score-row{display:grid;gap:7px;}
+.score-row .label{display:flex;justify-content:space-between;font-size:0.82rem;font-weight:700;color:var(--pine-deep);}
+.score-row .label small{color:var(--olive);font-weight:600;}
+.score-row .bar{height:8px;border-radius:5px;background:var(--sage-tint);overflow:hidden;}
+.score-row .bar span{display:block;height:100%;background:var(--pine);border-radius:5px;}
+
+.mini-steps{display:grid;gap:0;background:var(--white);border-radius:var(--radius-md);padding:26px 24px;box-shadow:var(--shadow-card);}
+.mini-step{display:flex;gap:16px;position:relative;padding-bottom:26px;}
+.mini-step:last-child{padding-bottom:0;}
+.mini-step::before{content:'';position:absolute;left:10px;top:24px;bottom:0;width:2px;background:var(--sage-tint);}
+.mini-step:last-child::before{display:none;}
+.mini-step .dot{width:22px;height:22px;border-radius:50%;background:var(--pine);color:var(--white);display:flex;align-items:center;justify-content:center;font-size:0.68rem;font-weight:800;flex-shrink:0;z-index:1;}
+.mini-step p{font-size:0.92rem;font-weight:700;color:var(--graphite);padding-top:2px;}
+
+/* ---------- DIY vs agency comparison ---------- */
+.compare{background:var(--cream);}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;}
+.compare-card{border-radius:var(--radius-lg);padding:clamp(28px,4vw,40px);position:relative;overflow:hidden;}
+.compare-card.primary{background:linear-gradient(155deg,var(--pine) 0%,var(--pine-deep) 100%);color:var(--white);box-shadow:var(--shadow-soft);}
+.compare-card.secondary{background:var(--white);border:1.5px solid rgba(39,84,65,0.14);}
+.compare-badge{display:inline-block;padding:6px 14px;border-radius:100px;font-size:0.68rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;}
+.compare-card.primary .compare-badge{background:rgba(255,255,255,0.16);color:var(--white);}
+.compare-card.secondary .compare-badge{background:var(--sage-tint);color:var(--pine-deep);}
+.compare-card h3{font-size:1.4rem;margin-top:16px;}
+.compare-card.primary h3{color:var(--white);}
+.compare-card p.desc{margin-top:12px;font-size:0.96rem;opacity:0.88;}
+.compare-list{margin-top:20px;display:grid;gap:10px;}
+.compare-list li{display:flex;gap:10px;align-items:flex-start;font-size:0.92rem;font-weight:600;}
+.compare-list .icon{width:17px;height:17px;margin-top:2px;flex-shrink:0;}
+.compare-card.primary .compare-list .icon{color:var(--sage-tint);}
+.compare-card.secondary .compare-list .icon{color:var(--pine);}
+.compare-card .btn{margin-top:26px;}
+.compare-price{margin-top:18px;display:flex;align-items:baseline;gap:8px;}
+.compare-price .amount{font-family:'Playfair Display',serif;font-size:2.3rem;font-weight:700;}
+.compare-price .period{font-size:0.9rem;opacity:0.75;font-weight:600;}
+
+/* ---------- who ---------- */
+.who{background:var(--white);}
+.who-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+.who-card{display:flex;gap:14px;padding:21px;border-radius:var(--radius-sm);}
+.who-card:nth-child(1){background:var(--sage-tint);}
+.who-card:nth-child(2){background:var(--cream);}
+.who-card:nth-child(3){background:var(--sage-tint);}
+.who-card:nth-child(4){background:var(--cream);}
+.who-card:nth-child(5){background:var(--sage-tint);}
+.who-card:nth-child(6){background:var(--cream);}
+.who-card .icon{width:22px;height:22px;color:var(--pine);flex-shrink:0;margin-top:2px;}
+.who-card p{font-size:0.95rem;font-weight:600;color:var(--graphite);}
+
+/* ---------- honesty (dark) ---------- */
+.honesty{background:var(--pine-deep);color:var(--alabaster);position:relative;overflow:hidden;}
+.honesty::before{content:'';position:absolute;width:560px;height:560px;border-radius:50%;border:56px solid rgba(255,255,255,0.045);top:-220px;right:-180px;}
+.honesty::after{content:'';position:absolute;width:360px;height:360px;border-radius:50%;border:40px solid rgba(255,255,255,0.035);bottom:-180px;left:-120px;}
+.honesty-inner{position:relative;z-index:1;}
+.honesty .eyebrow{color:var(--sage-tint);}
+.honesty .eyebrow::before{background:var(--sage-tint);}
+.honesty h2{color:var(--white);max-width:640px;}
+.honesty-grid{margin-top:40px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.honesty-item .num{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:var(--sage);}
+.honesty-item h4{color:var(--white);font-size:1.05rem;margin-top:8px;font-weight:600;}
+.honesty-item p{font-size:0.9rem;color:rgba(236,234,233,0.72);margin-top:8px;}
+.honesty-note{margin-top:40px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:var(--radius-md);padding:24px 28px;font-size:0.94rem;color:rgba(236,234,233,0.88);max-width:760px;}
+.honesty-note strong{color:var(--white);}
+
+/* ---------- how it works ---------- */
+.how{background:var(--sage-tint);}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.step{border-radius:var(--radius-md);padding:26px;position:relative;box-shadow:var(--shadow-card);}
+.step:nth-child(odd){background:var(--white);}
+.step:nth-child(even){background:var(--pine);color:var(--white);}
+.step:nth-child(even) h3{color:var(--white);}
+.step:nth-child(even) p{color:rgba(255,255,255,0.78);}
+.step .num{font-family:'Playfair Display',serif;font-size:2.1rem;font-weight:700;color:var(--sage);line-height:1;}
+.step:nth-child(even) .num{color:rgba(255,255,255,0.55);}
+.step h3{font-size:1.03rem;margin-top:10px;}
+.step p{font-size:0.87rem;color:var(--olive);margin-top:8px;}
+
+/* ---------- pricing ---------- */
+.pricing{background:var(--cream);}
+.price-card{max-width:560px;margin:0 auto;background:linear-gradient(160deg,var(--pine) 0%,var(--pine-deep) 100%);color:var(--white);border-radius:var(--radius-lg);padding:clamp(30px,5vw,48px);box-shadow:var(--shadow-soft);position:relative;overflow:hidden;}
+.price-card::after{content:'';position:absolute;width:300px;height:300px;border-radius:50%;border:38px solid rgba(255,255,255,0.05);bottom:-150px;right:-100px;}
+.price-card-inner{position:relative;z-index:1;}
+.price-badge{display:inline-block;background:rgba(255,255,255,0.14);border:1px solid rgba(255,255,255,0.22);padding:6px 14px;border-radius:100px;font-size:0.72rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;}
+.price-card h3{color:var(--white);font-size:1.5rem;margin-top:16px;}
+.price-value{display:flex;align-items:baseline;gap:8px;margin-top:18px;}
+.price-value .amount{font-family:'Playfair Display',serif;font-size:3.1rem;font-weight:700;}
+.price-value .period{font-size:1rem;color:rgba(255,255,255,0.7);font-weight:600;}
+.price-includes{margin-top:24px;display:grid;gap:11px;}
+.price-includes li{display:flex;gap:10px;align-items:flex-start;font-size:0.95rem;color:rgba(255,255,255,0.92);}
+.price-includes .icon{width:18px;height:18px;color:var(--sage-tint);margin-top:2px;flex-shrink:0;}
+.price-card .btn{margin-top:28px;}
+.price-fine{margin-top:16px;font-size:0.78rem;color:rgba(255,255,255,0.55);text-align:center;}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--white);}
+.faq-list{max-width:760px;margin:0 auto;display:grid;gap:12px;}
+details{background:var(--cream);border-radius:var(--radius-sm);border:1px solid rgba(39,84,65,0.1);padding:2px 22px;}
+details[open]{border-color:rgba(39,84,65,0.3);}
+summary{list-style:none;cursor:pointer;padding:19px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;font-weight:700;font-size:1rem;color:var(--pine-deep);}
+summary::-webkit-details-marker{display:none;}
+.plus{width:26px;height:26px;border-radius:50%;background:var(--white);flex-shrink:0;display:flex;align-items:center;justify-content:center;position:relative;box-shadow:0 3px 8px -3px rgba(0,0,0,0.15);}
+.plus::before,.plus::after{content:'';position:absolute;background:var(--pine);border-radius:2px;}
+.plus::before{width:11px;height:2px;}
+.plus::after{width:2px;height:11px;transition:transform .2s ease;}
+details[open] .plus::after{transform:rotate(90deg);opacity:0;}
+.faq-a{padding-bottom:19px;color:var(--olive);font-size:0.94rem;line-height:1.7;}
+
+/* ---------- closing ---------- */
+.closing{background:radial-gradient(ellipse at bottom right,#2f5f4b 0%,var(--pine) 45%,var(--pine-deep) 100%);color:var(--white);position:relative;overflow:hidden;}
+.closing::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;border:60px solid rgba(255,255,255,0.045);top:-300px;left:50%;transform:translateX(-50%);}
+.closing-split{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:center;}
+.closing-inner{text-align:left;}
+.closing h2{color:var(--white);font-size:clamp(1.75rem,3.6vw,2.5rem);}
+.closing p{margin-top:16px;color:rgba(236,234,233,0.85);font-size:1.05rem;max-width:480px;}
+.closing .btn{margin-top:30px;}
+.closing-photo{border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 30px 70px -24px rgba(0,0,0,0.45);}
+.closing-photo img{width:100%;display:block;aspect-ratio:1200/1500;object-fit:cover;}
+
+/* ---------- footer ---------- */
+footer{background:var(--graphite);color:rgba(236,234,233,0.7);padding:52px 0 28px;}
+.footer-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,0.1);}
+.footer-logo{display:flex;align-items:center;}
+.footer-logo svg{height:38px;width:auto;display:block;color:var(--alabaster);}
+.footer-links{display:flex;flex-wrap:wrap;gap:22px;font-size:0.85rem;}
+.footer-links a{display:inline-flex;align-items:center;gap:7px;}
+.footer-links .icon{width:16px;height:16px;color:var(--sage);}
+.footer-disclaimer{margin-top:24px;font-size:0.8rem;line-height:1.7;color:rgba(236,234,233,0.5);max-width:820px;}
+.footer-bottom{margin-top:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:0.78rem;color:rgba(236,234,233,0.4);}
+
+/* ---------- sticky mobile CTA ---------- */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--white);border-top:1px solid rgba(39,84,65,0.15);padding:12px 16px calc(12px + env(safe-area-inset-bottom));display:none;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -12px 30px -18px rgba(0,0,0,0.25);}
+.sticky-cta .price{font-weight:800;color:var(--pine-deep);font-size:0.95rem;}
+.sticky-cta .price small{display:block;font-weight:600;color:var(--olive);font-size:0.68rem;}
+.sticky-cta .btn{padding:13px 20px;font-size:0.88rem;}
+
+/* ---------- responsive ----------
+   Ordered strictly largest-to-smallest so later rules refine earlier ones
+   instead of colliding with them. */
+
+/* Tablets / small laptops */
+@media(max-width:1100px){
+  .hero-inner{gap:44px;}
+  .feature{gap:40px;}
+}
+
+/* Portrait tablet: stack the two-column sections */
+@media(max-width:980px){
+  .hero-inner{grid-template-columns:1fr;gap:40px;}
+  .hero-visual{order:-1;}
+  .problem-inner{grid-template-columns:1fr;gap:38px;}
+  .problem-visual{order:-1;max-width:520px;margin-inline:auto;}
+  .compare-grid{grid-template-columns:1fr;}
+  .honesty-grid{grid-template-columns:1fr 1fr;}
+  .steps{grid-template-columns:1fr 1fr;}
+  .closing-split{grid-template-columns:1fr;gap:38px;}
+  .closing-photo{order:-1;max-width:400px;margin-inline:auto;}
+}
+
+/* Large phones / small tablets */
+@media(max-width:760px){
+  .feature{grid-template-columns:1fr;gap:26px;padding:36px 0;}
+  .feature:nth-child(even) .feature-visual{order:0;}
+  .feature-visual{max-width:520px;margin-inline:auto;width:100%;}
+  .steps{grid-template-columns:1fr;}
+  .honesty-grid{grid-template-columns:1fr;gap:26px;}
+  .honesty-note{padding:22px;}
+  .section-head{margin-bottom:36px;}
+  /* sticky purchase bar takes over on touch sizes */
+  .sticky-cta{display:flex;}
+  body{padding-bottom:calc(76px + env(safe-area-inset-bottom));}
+}
+
+/* Phones */
+@media(max-width:600px){
+  .wrap,.hero-inner,.header-inner{padding-left:18px;padding-right:18px;}
+  .hero{padding-top:40px;padding-bottom:56px;}
+  .hero h1{font-size:clamp(1.95rem,7.4vw,2.4rem);}
+  .hero p.lead{font-size:1rem;}
+  .hero-cta .btn{width:100%;}
+  .search-mock{padding-left:18px;margin-top:24px;}
+  .search-mock span{font-size:0.86rem;}
+  .search-caption{margin-left:0;}
+  .hero-trust{gap:12px 18px;font-size:0.8rem;}
+  .areas-grid{grid-template-columns:1fr;}
+  .feature-head{gap:13px;}
+  .feature-num{width:46px;height:46px;border-radius:14px;font-size:1.15rem;}
+  .section-head h2{font-size:clamp(1.55rem,6vw,2rem);}
+  .section-head p{font-size:0.98rem;}
+  .price-value .amount{font-size:2.7rem;}
+  .compare-price .amount{font-size:2.1rem;}
+  .priority-list,.checklist-mini,.score-mini,.mini-steps{padding:20px;}
+  details{padding:2px 18px;}
+  summary{font-size:0.95rem;}
+  /* footer stacks into a readable column */
+  .footer-top{flex-direction:column;align-items:flex-start;gap:18px;}
+  .footer-links{gap:14px;font-size:0.82rem;}
+  .footer-bottom{flex-direction:column;gap:8px;}
+}
+
+/* Compact phones: cards tuck onto the illustration so the group stays intact */
+@media(max-width:560px){
+  .float-card{padding:10px 13px;gap:9px;max-width:66%;}
+  .float-card strong{font-size:0.79rem;}
+  .float-card span{font-size:0.65rem;}
+  .float-card .dot{width:8px;height:8px;}
+  .float-card.c1{top:-10px;left:-8px;}
+  .float-card.c2{bottom:-10px;right:-8px;}
+}
+
+/* Small phones (iPhone SE and similar) */
+@media(max-width:400px){
+  .wrap,.hero-inner,.header-inner{padding-left:15px;padding-right:15px;}
+  .logo svg{height:29px;}
+  .btn{padding:15px 24px;font-size:0.94rem;}
+  .btn-sm{padding:12px 15px;font-size:0.8rem;}
+  .hero h1{font-size:1.85rem;}
+  .float-card{padding:9px 11px;max-width:70%;}
+  .float-card.c1{top:-8px;left:-6px;}
+  .float-card.c2{bottom:-8px;right:-6px;}
+  .price-value .amount{font-size:2.4rem;}
+  .sticky-cta{padding:10px 14px;}
+  .sticky-cta .btn{padding:12px 16px;font-size:0.84rem;}
+}
+</style>
+</head>
+<body>
+
+<!-- LOGO SPRITE (reused via currentColor) -->
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="cm-lockup" viewBox="123 48 118 96">
+<path d="M203.14 129.027C203.723 129.027 204.231 129.111 204.665 129.277C205.098 129.444 205.456 129.677 205.74 129.977C206.056 130.311 206.273 130.744 206.39 131.277C206.506 131.811 206.565 132.469 206.565 133.252V139.927C206.565 140.627 206.706 141.102 206.99 141.352C207.29 141.602 207.781 141.727 208.465 141.727V142.252C208.181 142.236 207.748 142.219 207.165 142.202C206.581 142.169 206.015 142.152 205.465 142.152C204.915 142.152 204.373 142.169 203.84 142.202C203.323 142.219 202.931 142.236 202.665 142.252V141.727C203.265 141.727 203.69 141.602 203.94 141.352C204.19 141.102 204.315 140.627 204.315 139.927V132.702C204.315 132.186 204.281 131.711 204.215 131.277C204.148 130.844 203.981 130.494 203.715 130.227C203.448 129.961 203.015 129.827 202.415 129.827C201.765 129.827 201.181 130.027 200.665 130.427C200.165 130.827 199.765 131.377 199.465 132.077C199.181 132.761 199.04 133.527 199.04 134.377V139.927C199.04 140.627 199.165 141.102 199.415 141.352C199.665 141.602 200.09 141.727 200.69 141.727V142.252C200.423 142.236 200.023 142.219 199.49 142.202C198.973 142.169 198.44 142.152 197.89 142.152C197.34 142.152 196.773 142.169 196.19 142.202C195.606 142.219 195.173 142.236 194.89 142.252V141.727C195.573 141.727 196.056 141.602 196.34 141.352C196.64 141.102 196.79 140.627 196.79 139.927V132.102C196.79 131.352 196.656 130.802 196.39 130.452C196.123 130.086 195.623 129.902 194.89 129.902V129.377C195.423 129.427 195.94 129.452 196.44 129.452C196.923 129.452 197.381 129.427 197.815 129.377C198.265 129.311 198.673 129.219 199.04 129.102V132.052C199.473 130.969 200.065 130.194 200.815 129.727C201.565 129.261 202.34 129.027 203.14 129.027ZM210.665 129.027C211.248 129.027 211.756 129.111 212.19 129.277C212.623 129.444 212.981 129.677 213.265 129.977C213.581 130.311 213.798 130.744 213.915 131.277C214.031 131.811 214.09 132.469 214.09 133.252V139.927C214.09 140.627 214.231 141.102 214.515 141.352C214.815 141.602 215.306 141.727 215.99 141.727V142.252C215.706 142.236 215.273 142.219 214.69 142.202C214.106 142.169 213.54 142.152 212.99 142.152C212.44 142.152 211.898 142.169 211.365 142.202C210.848 142.219 210.456 142.236 210.19 142.252V141.727C210.79 141.727 211.215 141.602 211.465 141.352C211.715 141.102 211.84 140.627 211.84 139.927V132.702C211.84 132.186 211.806 131.711 211.74 131.277C211.673 130.844 211.506 130.494 211.24 130.227C210.973 129.961 210.54 129.827 209.94 129.827C209.29 129.827 208.706 130.027 208.19 130.427C207.69 130.827 207.29 131.369 206.99 132.052C206.706 132.736 206.565 133.502 206.565 134.352L206.49 132.027C206.94 130.877 207.548 130.094 208.315 129.677C209.081 129.244 209.865 129.027 210.665 129.027ZM221.007 122.652V139.927C221.007 140.627 221.132 141.102 221.382 141.352C221.632 141.602 222.057 141.727 222.657 141.727V142.252C222.39 142.236 221.99 142.219 221.457 142.202C220.94 142.169 220.415 142.152 219.882 142.152C219.315 142.152 218.74 142.169 218.157 142.202C217.574 142.219 217.14 142.236 216.857 142.252V141.727C217.54 141.727 218.024 141.602 218.307 141.352C218.607 141.102 218.757 140.627 218.757 139.927V125.652C218.757 124.902 218.624 124.352 218.357 124.002C218.09 123.636 217.59 123.452 216.857 123.452V122.927C217.39 122.977 217.907 123.002 218.407 123.002C218.89 123.002 219.349 122.977 219.782 122.927C220.232 122.861 220.64 122.769 221.007 122.652ZM228.957 129.377V129.877C228.54 129.911 228.149 130.027 227.782 130.227C227.415 130.411 227.057 130.686 226.707 131.052L223.182 134.752L223.532 134.052L228.182 140.427C228.465 140.811 228.732 141.111 228.982 141.327C229.249 141.544 229.565 141.677 229.932 141.727V142.252C229.749 142.236 229.457 142.219 229.057 142.202C228.674 142.169 228.29 142.152 227.907 142.152C227.39 142.152 226.865 142.169 226.332 142.202C225.799 142.219 225.399 142.236 225.132 142.252V141.727C225.465 141.727 225.699 141.644 225.832 141.477C225.965 141.311 225.94 141.111 225.757 140.877L222.882 136.677C222.565 136.227 222.274 135.936 222.007 135.802C221.757 135.669 221.39 135.594 220.907 135.577V135.077C221.44 135.011 221.874 134.902 222.207 134.752C222.54 134.586 222.857 134.344 223.157 134.027L225.007 132.102C225.54 131.552 225.807 131.119 225.807 130.802C225.807 130.469 225.632 130.236 225.282 130.102C224.949 129.952 224.507 129.877 223.957 129.877V129.377C224.39 129.394 224.874 129.419 225.407 129.452C225.957 129.469 226.415 129.477 226.782 129.477C227.065 129.477 227.34 129.477 227.607 129.477C227.874 129.461 228.124 129.444 228.357 129.427C228.59 129.411 228.79 129.394 228.957 129.377ZM234.852 125.227V129.402H238.552V129.902H234.852V139.577C234.852 140.361 234.994 140.911 235.277 141.227C235.56 141.544 235.952 141.702 236.452 141.702C236.952 141.702 237.385 141.502 237.752 141.102C238.119 140.686 238.435 139.994 238.702 139.027L239.202 139.152C239.035 140.119 238.702 140.936 238.202 141.602C237.719 142.269 236.969 142.602 235.952 142.602C235.385 142.602 234.919 142.527 234.552 142.377C234.185 142.244 233.86 142.044 233.577 141.777C233.21 141.394 232.952 140.936 232.802 140.402C232.669 139.869 232.602 139.161 232.602 138.277V129.902H230.202V129.402H232.602V125.577C233.019 125.561 233.419 125.527 233.802 125.477C234.185 125.427 234.535 125.344 234.852 125.227Z" fill="currentColor"/>
+<path d="M219.77 72.2192C221.87 72.2192 223.7 72.5187 225.26 73.1187C226.82 73.7187 228.11 74.5592 229.13 75.6392C230.27 76.8391 231.05 78.399 231.47 80.3188C231.89 82.2388 232.1 84.6092 232.1 87.4292V111.459C232.1 113.979 232.61 115.689 233.63 116.589C234.71 117.489 236.48 117.939 238.94 117.939V119.829C237.92 119.769 236.36 119.709 234.26 119.649C232.16 119.529 230.12 119.469 228.14 119.469C226.16 119.469 224.21 119.529 222.291 119.649C220.431 119.709 219.02 119.769 218.06 119.829V117.939C220.22 117.939 221.75 117.489 222.65 116.589C223.55 115.689 224 113.979 224 111.459V85.4487C224 83.5889 223.88 81.8788 223.64 80.3188C223.4 78.7589 222.8 77.4985 221.84 76.5386C220.88 75.5786 219.32 75.0991 217.16 75.0991C214.82 75.0992 212.72 75.8194 210.86 77.2593C209.06 78.6992 207.62 80.6491 206.541 83.1089C205.521 85.5689 205.01 88.3292 205.01 91.3892V111.459C205.01 113.979 205.521 115.689 206.541 116.589C207.621 117.489 209.39 117.939 211.85 117.939V119.829C210.83 119.769 209.27 119.709 207.17 119.649C205.07 119.529 203.03 119.469 201.05 119.469C199.07 119.469 197.12 119.529 195.2 119.649C193.34 119.709 191.93 119.769 190.97 119.829V117.939C193.13 117.939 194.66 117.489 195.56 116.589C196.46 115.689 196.91 113.979 196.91 111.459V85.4487C196.91 83.5889 196.79 81.8788 196.55 80.3188C196.31 78.7589 195.71 77.4985 194.75 76.5386C193.79 75.5786 192.23 75.0991 190.07 75.0991C187.73 75.0992 185.63 75.8193 183.77 77.2593C181.97 78.6992 180.53 80.6789 179.45 83.1987C178.43 85.6587 177.92 88.419 177.92 91.479V111.459C177.92 113.979 178.37 115.689 179.27 116.589C180.17 117.489 181.7 117.939 183.86 117.939V119.829C182.9 119.769 181.46 119.709 179.541 119.649C177.681 119.529 175.76 119.469 173.78 119.469C171.8 119.469 169.76 119.529 167.66 119.649C165.56 119.709 164 119.769 162.98 119.829V117.939C165.44 117.939 167.18 117.489 168.2 116.589C169.28 115.689 169.82 113.979 169.82 111.459V95.7427C171.447 94.3388 172.874 92.7633 174.098 91.0142C175.693 88.703 176.865 86.1801 177.614 83.4458H169.82V83.2886C169.82 80.589 169.34 78.6091 168.38 77.3491C167.42 76.0291 165.62 75.3687 162.98 75.3687V73.479C164.9 73.659 166.76 73.7495 168.56 73.7495C170.3 73.7495 171.95 73.659 173.51 73.479C175.13 73.239 176.6 72.9088 177.92 72.4888V83.1089C179.48 79.209 181.61 76.4187 184.31 74.7388C187.01 73.0588 189.8 72.2192 192.68 72.2192C194.78 72.2192 196.61 72.5187 198.17 73.1187C199.73 73.7187 201.021 74.5592 202.041 75.6392C203.18 76.8391 203.96 78.3991 204.38 80.3188C204.552 81.1041 204.686 81.9651 204.788 82.9009C206.403 78.8255 208.576 76.0447 211.31 74.5591C214.07 72.9991 216.89 72.2192 219.77 72.2192ZM151.344 49.022C154.664 49.022 157.741 49.494 160.573 50.438C163.437 51.382 165.993 52.7005 168.239 54.3931C170.517 56.0531 172.454 58.039 174.049 60.3501C175.644 62.6612 176.833 65.1842 177.614 67.9185H165.456C164.153 65.2494 162.249 63.1658 159.743 61.6685C157.269 60.1386 154.485 59.3735 151.393 59.3735C149.277 59.3735 147.259 59.7479 145.338 60.4966C143.45 61.2453 141.774 62.3359 140.309 63.7681C138.877 65.1677 137.721 66.8769 136.842 68.895C135.996 70.9131 135.573 73.1758 135.573 75.6821C135.573 78.221 135.996 80.4999 136.842 82.5181C137.721 84.5362 138.893 86.2616 140.358 87.6938C141.823 89.0935 143.499 90.1678 145.387 90.9165C147.308 91.6652 149.31 92.0395 151.393 92.0396C154.486 92.0396 157.269 91.2909 159.743 89.7935C162.217 88.2635 164.121 86.1476 165.456 83.4458H169.82V95.7427C169.327 96.1677 168.817 96.5778 168.288 96.9712C166.042 98.6639 163.486 99.9823 160.622 100.926C157.757 101.87 154.665 102.342 151.344 102.342C147.34 102.342 143.646 101.642 140.26 100.243C136.875 98.8429 133.945 96.9386 131.471 94.5298C129.03 92.121 127.109 89.3051 125.709 86.0825C124.342 82.86 123.659 79.4092 123.659 75.731C123.659 72.0527 124.342 68.6019 125.709 65.3794C127.077 62.1243 128.981 59.2921 131.422 56.8833C133.896 54.442 136.826 52.5213 140.211 51.1216C143.597 49.7219 147.308 49.022 151.344 49.022Z" fill="currentColor"/>
+<path d="M127.846 135.966C127.846 136.601 127.951 137.17 128.163 137.675C128.383 138.179 128.676 138.611 129.042 138.969C129.408 139.319 129.827 139.587 130.299 139.774C130.779 139.962 131.28 140.055 131.801 140.055C132.574 140.055 133.27 139.868 133.888 139.494C134.507 139.111 134.983 138.582 135.316 137.907H138.356C138.169 138.59 137.876 139.221 137.477 139.799C137.078 140.368 136.594 140.865 136.024 141.288C135.463 141.711 134.824 142.041 134.108 142.277C133.392 142.513 132.619 142.631 131.789 142.631C130.788 142.631 129.864 142.456 129.018 142.106C128.171 141.756 127.439 141.28 126.82 140.678C126.21 140.075 125.73 139.372 125.38 138.566C125.038 137.76 124.867 136.898 124.867 135.978C124.867 135.058 125.038 134.196 125.38 133.39C125.722 132.576 126.198 131.868 126.808 131.266C127.427 130.656 128.159 130.176 129.005 129.826C129.852 129.476 130.779 129.301 131.789 129.301C132.619 129.301 133.388 129.419 134.096 129.655C134.812 129.891 135.451 130.22 136.012 130.643C136.582 131.059 137.066 131.555 137.465 132.133C137.864 132.711 138.161 133.341 138.356 134.025H135.316C134.991 133.358 134.515 132.837 133.888 132.462C133.27 132.08 132.574 131.889 131.801 131.889C131.272 131.889 130.767 131.982 130.287 132.169C129.815 132.357 129.396 132.629 129.03 132.987C128.672 133.337 128.383 133.764 128.163 134.269C127.951 134.774 127.846 135.339 127.846 135.966ZM139.974 135.978C139.974 135.058 140.133 134.196 140.45 133.39C140.776 132.576 141.231 131.868 141.817 131.266C142.411 130.664 143.119 130.188 143.941 129.838C144.771 129.488 145.691 129.313 146.7 129.313C147.172 129.313 147.62 129.362 148.043 129.459C148.474 129.549 148.877 129.675 149.251 129.838C149.626 129.992 149.968 130.18 150.277 130.399C150.594 130.611 150.875 130.835 151.119 131.071L151.29 129.691H153.829V142.252H151.29L151.119 140.873C150.867 141.117 150.582 141.345 150.265 141.557C149.947 141.768 149.601 141.955 149.227 142.118C148.861 142.273 148.462 142.395 148.031 142.484C147.608 142.582 147.16 142.631 146.688 142.631C145.687 142.631 144.771 142.46 143.941 142.118C143.119 141.768 142.416 141.292 141.83 140.69C141.244 140.088 140.788 139.384 140.462 138.578C140.137 137.764 139.974 136.898 139.974 135.978ZM142.94 135.966C142.94 136.568 143.046 137.121 143.258 137.626C143.469 138.13 143.758 138.566 144.125 138.932C144.491 139.29 144.918 139.571 145.406 139.774C145.895 139.97 146.419 140.067 146.981 140.067C147.534 140.067 148.055 139.97 148.543 139.774C149.032 139.571 149.455 139.29 149.813 138.932C150.179 138.566 150.468 138.135 150.68 137.638C150.891 137.134 150.997 136.576 150.997 135.966C150.997 135.372 150.891 134.826 150.68 134.33C150.468 133.825 150.179 133.394 149.813 133.036C149.447 132.678 149.02 132.397 148.531 132.194C148.043 131.99 147.518 131.889 146.957 131.889C146.395 131.889 145.87 131.99 145.382 132.194C144.894 132.389 144.466 132.67 144.1 133.036C143.742 133.394 143.457 133.825 143.246 134.33C143.042 134.826 142.94 135.372 142.94 135.966ZM165.335 132.291L163.858 132.304C163.28 132.304 162.759 132.389 162.295 132.56C161.832 132.723 161.433 132.971 161.099 133.305C160.774 133.63 160.521 134.041 160.342 134.538C160.171 135.026 160.086 135.591 160.086 136.234V142.252H157.12V129.691H159.524L159.793 131.193C160.216 130.761 160.749 130.403 161.392 130.119C162.043 129.834 162.812 129.691 163.699 129.691H165.335V132.291ZM173.044 140.055C173.565 140.055 174.025 139.986 174.424 139.848C174.831 139.709 175.173 139.49 175.449 139.188C175.734 138.879 175.95 138.489 176.096 138.017C176.243 137.536 176.316 136.955 176.316 136.271V129.691H179.294V136.356C179.294 137.471 179.14 138.423 178.831 139.213C178.529 140.002 178.102 140.653 177.549 141.166C176.995 141.671 176.336 142.041 175.571 142.277C174.806 142.513 173.964 142.631 173.044 142.631C172.125 142.631 171.283 142.513 170.518 142.277C169.753 142.041 169.093 141.671 168.54 141.166C167.987 140.653 167.555 140.002 167.246 139.213C166.945 138.423 166.794 137.471 166.794 136.356V129.691H169.773V136.271C169.773 136.946 169.846 137.524 169.993 138.004C170.139 138.476 170.351 138.867 170.627 139.176C170.904 139.477 171.246 139.701 171.653 139.848C172.06 139.986 172.524 140.055 173.044 140.055ZM183.83 138.468C183.838 138.704 183.907 138.928 184.038 139.14C184.176 139.351 184.359 139.534 184.587 139.689C184.815 139.844 185.079 139.966 185.38 140.055C185.681 140.145 186.007 140.189 186.357 140.189C187.301 140.189 187.997 140.051 188.444 139.774C188.892 139.49 189.116 139.107 189.116 138.627C189.116 138.358 189.034 138.135 188.872 137.956C188.709 137.776 188.473 137.626 188.164 137.504C187.854 137.382 187.476 137.276 187.028 137.186C186.581 137.089 186.072 136.987 185.502 136.881C185.218 136.841 184.917 136.788 184.599 136.723C184.29 136.657 183.981 136.572 183.671 136.466C183.362 136.352 183.065 136.21 182.78 136.039C182.504 135.868 182.255 135.661 182.036 135.416C181.824 135.164 181.653 134.867 181.523 134.525C181.393 134.175 181.328 133.764 181.328 133.292C181.328 132.706 181.433 132.173 181.645 131.693C181.857 131.205 182.186 130.786 182.634 130.436C183.081 130.078 183.651 129.801 184.343 129.606C185.035 129.411 185.861 129.313 186.821 129.313C187.578 129.313 188.257 129.411 188.859 129.606C189.47 129.801 189.986 130.074 190.41 130.424C190.833 130.774 191.158 131.193 191.386 131.681C191.614 132.169 191.728 132.702 191.728 133.28L188.762 133.268C188.729 132.829 188.522 132.466 188.139 132.182C187.757 131.897 187.248 131.754 186.613 131.754C186.198 131.754 185.844 131.799 185.551 131.889C185.258 131.97 185.018 132.08 184.831 132.218C184.644 132.357 184.506 132.519 184.416 132.706C184.326 132.886 184.282 133.073 184.282 133.268C184.282 133.496 184.343 133.687 184.465 133.842C184.587 133.996 184.77 134.127 185.014 134.232C185.258 134.338 185.568 134.428 185.942 134.501C186.316 134.574 186.756 134.639 187.26 134.696C187.871 134.794 188.473 134.916 189.067 135.062C189.661 135.201 190.19 135.404 190.654 135.673C191.118 135.941 191.492 136.295 191.777 136.735C192.062 137.174 192.204 137.74 192.204 138.432C192.204 139.14 192.062 139.758 191.777 140.287C191.492 140.808 191.089 141.243 190.568 141.593C190.048 141.943 189.421 142.204 188.688 142.374C187.956 142.553 187.142 142.643 186.247 142.643C185.352 142.643 184.571 142.517 183.903 142.265C183.236 142.02 182.679 141.699 182.231 141.3C181.792 140.901 181.462 140.454 181.242 139.957C181.022 139.461 180.913 138.961 180.913 138.456L183.83 138.468Z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header>
+  <div class="header-inner">
+    <a href="#topo" class="logo" aria-label="Carus MKT">
+      <svg viewBox="0 0 118 96" role="img" aria-label="Carus MKT"><use href="#cm-lockup"/></svg>
+    </a>
+    <div class="header-right">
+      <a class="header-wa btn btn-outline btn-sm" href="https://wa.me/5547920005837" target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 20l1-5.3A8.5 8.5 0 1 1 21 11.5z"/></svg>WhatsApp
+      </a>
+      <a class="btn btn-primary btn-sm" href="https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03" target="_blank" rel="noopener">Quero o Kit</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="topo">
+  <div class="hero-bg-blob a"></div>
+  <div class="hero-bg-blob b"></div>
+  <div class="hero-inner">
+    <div class="reveal">
+      <span class="eyebrow">Google Visibility Kit · Carus MKT</span>
+      <h1>Sua empresa aparece no <span class="pill">Google</span> e no Maps?</h1>
+      <p class="lead">É a primeira coisa que um cliente faz antes de te ligar: pesquisa seu nome. O Google Visibility Kit mostra exatamente o que está faltando no seu Perfil da Empresa, e ensina você a corrigir <span class="underline-accent">sozinho, no seu ritmo</span>, sem contratar uma agência.</p>
+
+      <div class="search-mock" aria-hidden="true">
+        <span>Digite o nome da sua empresa…</span>
+        <div class="search-go"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+      </div>
+      <p class="search-caption">É basicamente isso que o seu cliente faz. O que ele encontra?</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03" target="_blank" rel="noopener">Quero fazer meu diagnóstico</a>
+      </div>
+      <div class="hero-trust">
+        <span><svg class="icon" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="3"/><path d="M9 12l2 2 4-4"/></svg>R$ 147 por ano</span>
+        <span><svg class="icon" viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg>Acesso imediato</span>
+        <span><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>Sem mensalidade de agência</span>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hero-media">
+        <div class="hero-photo-frame">
+          <img src="assets/hero-illustration.webp" alt="Ilustração do Perfil da Empresa no Google, com celular, loja e localização" width="1300" height="1041" loading="eager" decoding="async">
+        </div>
+        <div class="float-card c1"><span class="dot"></span><div><strong>30 perguntas</strong><span>diagnóstico guiado</span></div></div>
+        <div class="float-card c2"><span class="dot"></span><div><strong>5 prioridades</strong><span>pra agir primeiro</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEMA ============ -->
+<section class="problem">
+  <div class="wrap">
+    <div class="problem-inner">
+      <div class="reveal">
+        <span class="eyebrow">O cenário mais comum</span>
+        <h2 style="margin-top:12px">Você entrega bem. Mas o seu perfil no Google não mostra isso.</h2>
+        <p style="color:var(--olive);margin-top:16px;font-size:1.02rem">A maioria dos perfis incompletos não é falta de esforço: é falta de saber por onde começar. Alguns sinais de que o seu precisa de atenção:</p>
+        <div class="signs stagger">
+          <div class="sign"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg><p>Você pesquisa o nome da própria empresa e encontra informações desatualizadas.</p></div>
+          <div class="sign"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-4-4 3-2-2-6 5"/></svg><p>As fotos são poucas, antigas ou não representam a realidade do seu trabalho.</p></div>
+          <div class="sign"><svg class="icon" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-11M12 6V3M20 21v-5M20 12V3"/><circle cx="4" cy="13" r="2"/><circle cx="12" cy="9" r="2"/><circle cx="20" cy="14" r="2"/></svg><p>Categoria, horário ou área de atendimento aparecem incompletos ou errados.</p></div>
+          <div class="sign"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2z"/></svg><p>As avaliações se acumulam há meses sem nenhuma resposta.</p></div>
+          <div class="sign"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.7-2.5 2-2.5 3.5M12 17h.01"/></svg><p>E, no fim das contas, você não sabe qual desses pontos corrigir primeiro.</p></div>
+        </div>
+      </div>
+      <div class="problem-visual reveal">
+        <img src="assets/tablet-screens.webp" alt="Tela do Google Visibility Kit mostrando as opções de criar ou diagnosticar o Perfil da Empresa" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ O QUE VOCÊ RECEBE ============ -->
+<section class="features" id="conteudo">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">O que você recebe</span>
+      <h2>Tudo o que uma agência faria por você, no seu ritmo e por uma fração do investimento</h2>
+      <p>Um passo a passo prático, dividido em etapas claras: do diagnóstico à manutenção contínua do seu perfil.</p>
+    </div>
+
+    <!-- 1 -->
+    <div class="feature reveal">
+      <div>
+        <div class="feature-head">
+          <span class="feature-num n1">01</span>
+          <h3>Diagnóstico guiado com 30 perguntas</h3>
+        </div>
+        <p class="feature-copy">Você responde a uma avaliação objetiva sobre o seu Perfil da Empresa no Google. Ao final, recebe uma pontuação geral e entende exatamente quais itens estão confirmados, incompletos ou ausentes, sem depender de achismo.</p>
+        <div class="areas-grid stagger">
+          <span class="area-chip">Informações essenciais</span>
+          <span class="area-chip">Categorias e serviços</span>
+          <span class="area-chip">Descrição e posicionamento</span>
+          <span class="area-chip">Fotos e publicações</span>
+          <span class="area-chip">Avaliações e reputação</span>
+          <span class="area-chip">Manutenção e desempenho</span>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <div class="score-mini stagger">
+          <div class="score-row"><div class="label"><span>Informações essenciais</span><small>85%</small></div><div class="bar"><span style="width:85%"></span></div></div>
+          <div class="score-row"><div class="label"><span>Categorias e serviços</span><small>60%</small></div><div class="bar"><span style="width:60%"></span></div></div>
+          <div class="score-row"><div class="label"><span>Fotos e publicações</span><small>35%</small></div><div class="bar"><span style="width:35%"></span></div></div>
+          <div class="score-row"><div class="label"><span>Avaliações e reputação</span><small>20%</small></div><div class="bar"><span style="width:20%"></span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="feature reveal">
+      <div>
+        <div class="feature-head">
+          <span class="feature-num n2">02</span>
+          <h3>Cinco prioridades para agir primeiro</h3>
+        </div>
+        <p class="feature-copy">Nada de lista infinita de tarefas. Você recebe as cinco prioridades mais relevantes para o momento do seu perfil, cada uma com o porquê e qual material consultar para corrigir.</p>
+        <ul class="feature-list">
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Ordem clara: o que resolver primeiro</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Sem sobrecarga de informação</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Você decide quando e como aplicar</li>
+        </ul>
+      </div>
+      <div class="feature-visual">
+        <div class="priority-list stagger">
+          <div class="priority-item"><span class="n">1</span><span>Completar horários de funcionamento</span></div>
+          <div class="priority-item"><span class="n">2</span><span>Revisar categoria principal</span></div>
+          <div class="priority-item"><span class="n">3</span><span>Adicionar fotos reais recentes</span></div>
+          <div class="priority-item"><span class="n">4</span><span>Responder avaliações pendentes</span></div>
+          <div class="priority-item"><span class="n">5</span><span>Detalhar descrição dos serviços</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="feature reveal">
+      <div>
+        <div class="feature-head">
+          <span class="feature-num n3">03</span>
+          <h3>Guia para criar o perfil do zero</h3>
+        </div>
+        <p class="feature-copy">Ainda não tem Perfil da Empresa no Google? O kit também traz uma jornada de criação, para você começar com segurança e sem cair em armadilhas comuns.</p>
+        <ul class="feature-list">
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Como verificar se sua empresa é elegível</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Como evitar perfis duplicados</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Nome, categoria, endereço e área de atendimento</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Fotos, contatos e descrição prontos para publicar</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Cuidados com o processo de verificação</li>
+        </ul>
+      </div>
+      <div class="feature-visual">
+        <div class="mini-steps stagger">
+          <div class="mini-step"><span class="dot">1</span><p>Nome, categoria e elegibilidade</p></div>
+          <div class="mini-step"><span class="dot">2</span><p>Endereço ou área de atendimento</p></div>
+          <div class="mini-step"><span class="dot">3</span><p>Fotos, contatos e descrição</p></div>
+          <div class="mini-step"><span class="dot">4</span><p>Verificação do perfil</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="feature reveal">
+      <div>
+        <div class="feature-head">
+          <span class="feature-num n4">04</span>
+          <h3>Guia de otimização e materiais práticos</h3>
+        </div>
+        <p class="feature-copy">Conteúdos organizados para cuidar dos pontos que mais pesam na clareza e na confiança do seu perfil, com um agente de IA treinado para tirar dúvidas específicas do seu negócio.</p>
+        <div class="areas-grid stagger">
+          <span class="area-chip">Informações, horários e links</span>
+          <span class="area-chip">Categorias e atributos</span>
+          <span class="area-chip">Descrição e posicionamento</span>
+          <span class="area-chip">Fotos, capa e logotipo</span>
+          <span class="area-chip">Avaliações e respostas</span>
+          <span class="area-chip">Métricas e rotina mensal</span>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="assets/laptop-materiais.webp" alt="Tela real da área de membros com materiais para otimizar o perfil" loading="lazy">
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="feature reveal" style="border-bottom:1px solid rgba(39,84,65,0.13)">
+      <div>
+        <div class="feature-head">
+          <span class="feature-num n5">05</span>
+          <h3>Checklists para aplicar de verdade</h3>
+        </div>
+        <p class="feature-copy">Os materiais não servem só para leitura. Eles te ajudam a conferir o perfil ponto a ponto, aplicar os ajustes e manter uma rotina simples de atualização ao longo do ano.</p>
+      </div>
+      <div class="feature-visual">
+        <ul class="checklist-mini stagger">
+          <li><span class="box done"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Categoria principal revisada</li>
+          <li><span class="box done"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Horários atualizados</li>
+          <li><span class="box"></span> Fotos recentes adicionadas</li>
+          <li><span class="box"></span> Avaliações respondidas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAÇA VOCÊ MESMO x AGÊNCIA ============ -->
+<section class="compare">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Duas formas de resolver</span>
+      <h2>Você escolhe: aprende a fazer sozinho, ou entrega nas nossas mãos</h2>
+      <p>Não existe caminho errado. Existe o caminho certo para o momento da sua empresa.</p>
+    </div>
+    <div class="compare-grid stagger">
+      <div class="compare-card primary">
+        <span class="compare-badge">Faça você mesmo</span>
+        <h3>Google Visibility Kit</h3>
+        <p class="desc">Para quem quer entender o próprio perfil, aplicar os ajustes com as próprias mãos e manter tudo em dia, sem depender de terceiros.</p>
+        <div class="compare-price"><span class="amount">R$ 147</span><span class="period">/ ano</span></div>
+        <ul class="compare-list">
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Diagnóstico, prioridades e guias completos</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Você aplica no seu próprio ritmo</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Sem mensalidade, sem contrato</li>
+        </ul>
+        <a class="btn btn-light btn-block" href="https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03" target="_blank" rel="noopener">Quero fazer sozinho</a>
+      </div>
+      <div class="compare-card secondary">
+        <span class="compare-badge">Deixe com a gente</span>
+        <h3>Gestão completa do perfil</h3>
+        <p class="desc">Para quem prefere entregar a criação, otimização e manutenção do perfil para a equipe da Carus MKT cuidar de ponta a ponta.</p>
+        <ul class="compare-list" style="margin-top:24px">
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Diagnóstico e execução feitos por especialistas</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Você continua sendo o dono do perfil</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Ideal para quem não tem tempo de fazer sozinho</li>
+        </ul>
+        <a class="btn btn-outline btn-block" href="https://carusmkt.com.br/googleempresas/" target="_blank" rel="noopener">Conhecer o serviço completo →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARA QUEM ============ -->
+<section class="who">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Para quem é</span>
+      <h2>Feito para quem toca o próprio negócio</h2>
+    </div>
+    <div class="who-grid stagger">
+      <div class="who-card"><svg class="icon" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg><p>Pequenos negócios locais, com atendimento presencial ou área de serviço</p></div>
+      <div class="who-card"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg><p>Quem já tem perfil no Google, mas não sabe se ele está completo</p></div>
+      <div class="who-card"><svg class="icon" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg><p>Quem ainda precisa criar o perfil e quer começar com segurança</p></div>
+      <div class="who-card"><svg class="icon" viewBox="0 0 24 24"><path d="M3 6l9 6 9-6M3 6h18v12H3z"/></svg><p>Profissionais liberais que vivem de indicação e querem menos dependência disso</p></div>
+      <div class="who-card"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2z"/></svg><p>Quem quer melhorar a presença digital sem arriscar o perfil com atalhos</p></div>
+      <div class="who-card"><svg class="icon" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7M3 5v5h5"/></svg><p>Quem busca uma rotina simples pra manter tudo sempre atualizado</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HONESTIDADE ============ -->
+<section class="honesty">
+  <div class="wrap honesty-inner">
+    <span class="eyebrow">Como a gente pensa</span>
+    <h2>Nada de promessa mirabolante. Só clareza sobre o que está no seu controle.</h2>
+    <div class="honesty-grid stagger">
+      <div class="honesty-item"><span class="num">01</span><h4>Informações verdadeiras</h4><p>Nada de dados inflados ou serviços que sua empresa não oferece.</p></div>
+      <div class="honesty-item"><span class="num">02</span><h4>Boas práticas do Google</h4><p>Orientações dentro das diretrizes oficiais, sem atalho que coloque o perfil em risco.</p></div>
+      <div class="honesty-item"><span class="num">03</span><h4>Você continua no controle</h4><p>O perfil é e continua sendo seu. O kit te ensina, você decide e aplica.</p></div>
+    </div>
+    <div class="honesty-note">
+      <strong>Um perfil bem cuidado melhora as condições</strong> para sua empresa aparecer em pesquisas relevantes. Mas posicionamento, cliques e vendas dependem de vários fatores e não podem ser garantidos por ninguém. O que o Google Visibility Kit garante é clareza sobre o que está no seu controle, e um caminho prático para agir sobre isso.
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="how" id="como-funciona">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Como funciona</span>
+      <h2>Da compra à rotina de manutenção</h2>
+    </div>
+    <div class="steps stagger">
+      <div class="step"><span class="num">01</span><h3>Compra e acesso</h3><p>Você garante seu acesso individual à plataforma na hora.</p></div>
+      <div class="step"><span class="num">02</span><h3>Diagnóstico guiado</h3><p>Responde às 30 perguntas sobre o seu Perfil da Empresa.</p></div>
+      <div class="step"><span class="num">03</span><h3>Resultado e prioridades</h3><p>Recebe a leitura por área e suas cinco prioridades de ação.</p></div>
+      <div class="step"><span class="num">04</span><h3>Materiais de apoio</h3><p>Acessa os guias relacionados a cada ponto identificado.</p></div>
+      <div class="step"><span class="num">05</span><h3>Aplicação no seu ritmo</h3><p>Ajusta o próprio perfil no Google, sem pressa e sem depender de ninguém.</p></div>
+      <div class="step"><span class="num">06</span><h3>Manutenção contínua</h3><p>Usa o plano de manutenção para manter o perfil em dia o ano todo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="pricing" id="investimento">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Investimento</span>
+      <h2>Menos que uma mensalidade de agência. Acesso por um ano inteiro.</h2>
+    </div>
+    <div class="price-card reveal">
+      <div class="price-card-inner">
+        <span class="price-badge">Google Visibility Kit</span>
+        <h3>Acesso anual</h3>
+        <div class="price-value"><span class="amount">R$ 147</span><span class="period">/ ano</span></div>
+        <ul class="price-includes">
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Acesso individual à plataforma</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Diagnóstico guiado com 30 perguntas</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Relatório e plano de 5 prioridades</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Guia completo de criação e otimização</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Checklists e materiais de apoio</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Suporte via WhatsApp em dias úteis</li>
+        </ul>
+        <a class="btn btn-light btn-block" href="https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03" target="_blank" rel="noopener">Quero acessar o Google Visibility Kit</a>
+        <p class="price-fine">Pagamento processado com segurança via Stripe.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Perguntas frequentes</span>
+      <h2>Respostas honestas, sem enrolação</h2>
+    </div>
+    <div class="faq-list stagger">
+      <details>
+        <summary>Preciso já ter um Perfil da Empresa no Google?<span class="plus"></span></summary>
+        <div class="faq-a">Não. O kit também traz uma jornada para quem precisa criar o perfil do zero e quer entender os cuidados antes de começar.</div>
+      </details>
+      <details>
+        <summary>O kit cria ou altera meu perfil automaticamente?<span class="plus"></span></summary>
+        <div class="faq-a">Não. É uma plataforma educativa e prática: mostra o que analisar, priorizar e ajustar, mas quem aplica as mudanças no Perfil da Empresa é você mesmo, no seu próprio ritmo.</div>
+      </details>
+      <details>
+        <summary>O kit garante que minha empresa fica em primeiro lugar no Google?<span class="plus"></span></summary>
+        <div class="faq-a">Não. Nenhum produto sério garante posição, vendas, contatos ou visualizações. O objetivo é te ajudar a manter um perfil mais completo, correto, confiável e fácil de entender.</div>
+      </details>
+      <details>
+        <summary>Vale a pena mesmo sem entender nada de marketing?<span class="plus"></span></summary>
+        <div class="faq-a">Sim. O kit foi pensado justamente para quem não é da área: linguagem direta, sem jargão técnico, com o passo a passo explicado.</div>
+      </details>
+      <details>
+        <summary>Posso acessar pelo celular?<span class="plus"></span></summary>
+        <div class="faq-a">Sim. A área de membros é responsiva e funciona em computador, tablet ou celular.</div>
+      </details>
+      <details>
+        <summary>E se eu preferir contratar a Carus MKT para fazer por mim?<span class="plus"></span></summary>
+        <div class="faq-a">Sem problema! Também oferecemos o serviço completo de criação e gestão do perfil. Fale com a gente pelo WhatsApp ou visite carusmkt.com.br para conhecer.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="closing">
+  <div class="wrap closing-split">
+    <div class="closing-inner reveal">
+      <h2>Chega de perfil no piloto automático</h2>
+      <p>Você não precisa de uma agência para ter um Perfil da Empresa completo, claro e confiável no Google. Precisa de um caminho certo pra seguir, e é exatamente isso que o Google Visibility Kit entrega.</p>
+      <a class="btn btn-light" href="https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03" target="_blank" rel="noopener">Quero começar agora por R$147/ano</a>
+    </div>
+    <div class="closing-photo reveal">
+      <img src="assets/desk-coffee.webp" alt="Mesa de trabalho com café e laptop, clima de cuidado e organização" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <svg viewBox="0 0 118 96" role="img" aria-label="Carus MKT"><use href="#cm-lockup"/></svg>
+      </div>
+      <div class="footer-links">
+        <a class="btn btn-outline on-dark btn-sm" href="https://wa.me/5547920005837" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 20l1-5.3A8.5 8.5 0 1 1 21 11.5z"/></svg>WhatsApp</a>
+        <a href="mailto:carusmktdigital@gmail.com"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>carusmktdigital@gmail.com</a>
+        <a href="https://carusmkt.com.br/" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9z"/></svg>carusmkt.com.br</a>
+      </div>
+    </div>
+    <p class="footer-disclaimer">O Google Visibility Kit é um produto independente da Carus MKT e não é afiliado, patrocinado ou aprovado pelo Google. "Google", "Google Maps" e "Perfil da Empresa no Google" são marcas de propriedade da Google LLC, mencionadas aqui apenas para fins de referência e contexto do serviço oferecido.</p>
+    <div class="footer-bottom">
+      <span>© 2026 Carus MKT. Todos os direitos reservados.</span>
+      <span>"O topo não aceita sorte. Aceita estratégia."</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="sticky-cta">
+  <div class="price">R$ 147<small>acesso anual</small></div>
+  <a class="btn btn-primary" href="https://buy.stripe.com/aFa5kEers3Jo3d78vj6EU03" target="_blank" rel="noopener">Quero acessar</a>
+</div>
+
+<script>
+(function(){
+  var items = document.querySelectorAll('.reveal, .stagger');
+  if (!items.length) return;
+
+  if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return; // content is visible by default (no .js-anim class added), nothing to do
+  }
+
+  document.documentElement.classList.add('js-anim');
+
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target); // fire once, then stop watching: keeps the observer cheap
+      }
+    });
+  }, {threshold: 0.1, rootMargin: '0px 0px -50px 0px'});
+
+  items.forEach(function(el){ io.observe(el); });
+
+  // Anything already in view on load reveals immediately, without waiting for a scroll.
+  requestAnimationFrame(function(){
+    items.forEach(function(el){
+      var r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight && r.bottom > 0) { el.classList.add('in'); io.unobserve(el); }
+    });
+  });
+
+  // Safety net: if anything is ever missed (edge cases, layout shifts), reveal it anyway.
+  setTimeout(function(){
+    items.forEach(function(el){ el.classList.add('in'); });
+  }, 4000);
+})();
+</script>
+
+</body>
+</html>
